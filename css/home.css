@@ -1,0 +1,62 @@
+/*Agregar una imagen de fondo*/
+.home{
+  background-image: url('../assets/home.webp'); /* Replace with your image URL */
+  background-size: cover; /* Cover the entire screen */
+  background-position: center; /* Center the image */
+  height: 100vh; /* Full height of the viewport */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  position: relative; /* For absolute positioning of the overlay */
+}
+.home-content {
+  position: relative; /* Necesario para que el contenido esté sobre ::before */
+  z-index: 2; /* Mayor que el z-index de ::before */
+}
+.home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Asegura que abarque todo el ancho */
+  height: 100%; /* Asegura que abarque toda la altura */
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1; /* Asegura que esté sobre la imagen */
+}
+
+/* Section hero
+h1 de mayor tamaño y color blanco
+*/
+.hero-content h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1.2s ease forwards;
+
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.slogan {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.intro-content p{
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+}
