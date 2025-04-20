@@ -1,6 +1,12 @@
 /*Cambiar la fuente*/
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Arial', sans-serif;
+    
 }
 * {
     margin: 0;

@@ -1,129 +1,208 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>History & Culture</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/history-culture.css"> <!-- Link to the CSS file for this page -->
-</head>
-<header>
-    <script src="js/navbar.js"></script> <!-- Link to external JavaScript file for navbar functionality -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/history-culture.css" />
+  </head>
+  <header>
+    <script src="js/navbar.js"></script>
     <nav class="navbar">
-      <div class="logo">Rome</div> <!-- Website logo or title -->
-      
-      <button class="toggle" onclick="toggleMenu()">☰</button> <!-- Hamburger button for mobile view -->
-  
-      <ul class="nav-links" id="navLinks"> <!-- Navigation links -->
+      <div class="logo">Rome</div>
+      <button class="toggle" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="history-culture.html">History & Culture</a></li>
-        <li><a href="attractions.html">Tourist Attractions</a></li>
+        <li><a href="tourist-attractions.html">Tourist Attractions</a></li>
         <li><a href="gastronomy.html">Gastronomy</a></li>
         <li><a href="how-to-get-there.html">How to Get There</a></li>
       </ul>
     </nav>
   </header>
-<body>
-    
+  <body>
     <section id="history-culture">
-        <h2>Historia y Cultura de Roma</h2>
-        <article id="introduccion">
-          <h1>Descubre el alma eterna de la Ciudad Eterna</h1>
-          <div class="image-container">
-            <img src="./assets/coliseo.webp" alt="Coliseo romano">
-          </div>
-          <p>¿Te has preguntado alguna vez por qué Roma atrae a millones de visitantes cada año? La respuesta está en su historia única, su cultura viva y su encanto eterno. Roma no es solo un destino, es una experiencia que combina pasado, arte, fe y sabor.</p>
-        </article>
-      
-        <article id="historia">
-          <h1>Un viaje al pasado: la historia de Roma</h1>
-          <div class="image-container">
-            <img src="./assets/foro.webp" alt="Foro Romano">
-          </div>
-          <p>Roma nació hace más de 2,700 años. Según la leyenda, fue fundada por Rómulo en el año 753 a.C., y desde entonces su historia ha sido una aventura increíble. Fue primero un pequeño pueblo, luego se convirtió en la capital del mayor imperio del mundo antiguo.</p>
-          <p>Caminar por sus calles es como recorrer un museo al aire libre: el Coliseo, el Foro Romano y el Panteón son solo algunas de las huellas del poder de la antigua Roma. Cada piedra tiene una historia que contar, y cada rincón guarda secretos de emperadores, gladiadores y dioses.</p>
-          <blockquote>
-            “La historia de Roma abarca más de mil años, durante los cuales pasó de ser una monarquía a convertirse en una república y luego en un imperio que dominó gran parte del mundo conocido.”
-            <cite>Wikipedia - Antigua Roma</cite>
-          </blockquote>
-        </article>
-      
-        <article id="cultura">
-          <h1>Cultura viva en cada rincón</h1>
-          <div class="image-container">
-            <img src="./assets/plaza.webp" alt="Piazza Navona">
-          </div>
-          <p>Lo maravilloso de Roma es que su cultura no se quedó en el pasado. Hoy, la ciudad sigue vibrando con arte, tradición y vida cotidiana. La herencia del imperio se mezcla con el bullicio de los mercados, los artistas callejeros y las trattorias llenas de aromas.</p>
-          <p>Roma heredó muchas ideas y estilos de los antiguos griegos, pero supo darle su propio toque. De ahí nacieron los arcos, las grandes avenidas, los baños públicos y las leyes que hoy aún influyen en muchos países.</p>
-          <blockquote>
-            “Los romanos se beneficiaron enormemente del contacto con la cultura griega, que admiraban profundamente. Sin embargo, desarrollaron una cultura propia, centrada en la práctica y la organización.”
-            <cite>El Historiador</cite>
-          </blockquote>
-        </article>
-      
-        <article id="religion">
-          <h1>Fe, arte y tradición</h1>
-          <div class="image-container">
-            <img src="./assets/vaticano.webp"alt="Vaticano">
-          </div>
-          <p>En Roma, la religión siempre ha sido parte de la vida. Primero con sus dioses antiguos, y luego con la llegada del cristianismo, que hizo de esta ciudad el corazón espiritual del mundo católico. La Basílica de San Pedro y el Vaticano son testigos vivos de esa historia de fe y arte.</p>
-          <blockquote>
-            “En el siglo IV, el cristianismo fue adoptado oficialmente por el emperador Constantino y se convirtió en religión del Estado.”
-            <cite>Wikipedia - Antigua Roma</cite>
-          </blockquote>
-        </article>
-      
-        <p class="references">
-          <strong>Fuentes:</strong>
-          <a href="https://es.wikipedia.org/wiki/Antigua_Roma" target="_blank">Wikipedia - Antigua Roma</a>,
-          <a href="https://elhistoriador.com.ar/la-cultura-romana/" target="_blank">El Historiador</a>.
+      <h2>History and Culture of Rome</h2>
+      <article id="introduccion">
+        <h1>Discover the Soul of the Eternal City</h1>
+        <div class="image-container">
+          <img src="./assets/coliseo.webp" alt="Roman Colosseum" />
+        </div>
+        <p>
+          Ever wondered why Rome draws millions of visitors every year? The
+          answer lies in its unique history, vibrant culture, and timeless
+          charm. Rome is not just a destination—it's an experience that blends
+          history, art, faith, and flavor.
         </p>
+      </article>
+
+      <article id="historia">
+        <h1>A Journey Through Time: The History of Rome</h1>
+        <div class="image-container">
+          <img src="./assets/foro.webp" alt="Roman Forum" />
+        </div>
+        <p>
+          Rome was founded over 2,700 years ago. According to legend, it was
+          established by Romulus in 753 BC. What began as a small village
+          eventually became the capital of the greatest empire of the ancient
+          world.
+        </p>
+        <p>
+          Walking through its streets feels like wandering through an open-air
+          museum. The Colosseum, the Roman Forum, and the Pantheon are just a
+          few of the many landmarks that echo the grandeur of ancient Rome.
+          Every stone tells a story, every corner holds the secrets of emperors,
+          gladiators, and gods.
+        </p>
+        <blockquote>
+          "The history of Rome spans over a thousand years, during which it
+          transformed from a monarchy to a republic and later to an empire that
+          ruled much of the known world."
+          <cite>Wikipedia - Ancient Rome</cite>
+        </blockquote>
+      </article>
+
+      <article id="cultura">
+        <h1>Living Culture in Every Corner</h1>
+        <div class="image-container">
+          <img src="./assets/plaza.webp" alt="Piazza Navona" />
+        </div>
+        <p>
+          What makes Rome truly special is that its culture is still alive. The
+          city pulses with creativity, tradition, and everyday life. The legacy
+          of the empire mingles with the hustle of markets, street performers,
+          and trattorias rich with aroma.
+        </p>
+        <p>
+          Rome inherited many ideas and styles from the Greeks but added its own
+          touch. From arches and grand avenues to public baths and laws, its
+          influence continues to shape the modern world.
+        </p>
+        <blockquote>
+          "The Romans greatly benefited from their contact with Greek culture,
+          which they deeply admired. Yet they developed their own culture,
+          centered on practicality and organization."
+          <cite>El Historiador</cite>
+        </blockquote>
+      </article>
+
+      <article id="religion">
+        <h1>Faith, Art, and Tradition</h1>
+        <div class="image-container">
+          <img src="./assets/vaticano.webp" alt="Vatican City" />
+        </div>
+        <p>
+          Religion has always been part of Roman life. From ancient gods to the
+          rise of Christianity, Rome became the spiritual heart of the Catholic
+          world. St. Peter's Basilica and the Vatican are living witnesses of
+          this deep connection between faith and art.
+        </p>
+        <blockquote>
+          "In the 4th century, Christianity was officially adopted by Emperor
+          Constantine and became the state religion."
+          <cite>Wikipedia - Ancient Rome</cite>
+        </blockquote>
+      </article>
+
+      <p class="references">
+        <strong>Sources:</strong>
+        <a href="https://en.wikipedia.org/wiki/Ancient_Rome" target="_blank"
+          >Wikipedia - Ancient Rome</a
+        >,
+        <a
+          href="https://elhistoriador.com.ar/la-cultura-romana/"
+          target="_blank"
+          >El Historiador</a
+        >
+      </p>
     </section>
+
     <section id="festivities">
-  <h2>Festividades en Roma</h2>
-  <div class="festivity-cards">
-    
-    <div class="festivity-card">
-      <img src="./assets/pascua.webp" alt="Semana Santa en Roma">
-      <div class="festivity-card-content">
-        <h3>Semana Santa en el Vaticano</h3>
-        <p>Celebraciones religiosas con misas, procesiones y bendiciones del Papa en la Plaza de San Pedro.</p>
-        <span>Marzo / Abril (según calendario)</span>
-      </div>
-    </div>
+      <h2>Festivals in Rome</h2>
+      <div class="festivity-cards">
+        <div class="festivity-card">
+          <img
+            src="./assets/rome-carnevale-di-roma.webp"
+            alt="Roman Carnival"
+          />
+          <div class="festivity-card-content">
+            <h3>Roman Carnival</h3>
+            <p>
+              A celebration of color and creativity featuring costume parades,
+              street performances, and cultural events in iconic squares like
+              Piazza del Popolo.
+            </p>
+            <span>February</span>
+          </div>
+        </div>
 
-    <div class="festivity-card">
-      <img src="./assets/natale.webp" alt="Navidad en Roma">
-      <div class="festivity-card-content">
-        <h3>Navidad en Roma</h3>
-        <p>Luces, mercados y conciertos por toda la ciudad, con una atmósfera mágica y tradicional.</p>
-        <span>25 de diciembre</span>
-      </div>
-    </div>
+        <div class="festivity-card">
+          <img src="./assets/nascita-di-roma.webp" alt="Founding of Rome" />
+          <div class="festivity-card-content">
+            <h3>Natale di Roma (Birthday of Rome)</h3>
+            <p>
+              Celebrates the founding of Rome with historical reenactments,
+              parades, and cultural performances at landmarks like the Colosseum
+              and Roman Forum.
+            </p>
+            <span>April 21</span>
+          </div>
+        </div>
 
-    <div class="festivity-card">
-      <img src="./assets/capodanno.webp" alt="Año Nuevo en Roma">
-      <div class="festivity-card-content">
-        <h3>Año Nuevo</h3>
-        <p>Fuegos artificiales, música en vivo y celebraciones en plazas emblemáticas como Piazza del Popolo.</p>
-        <span>31 de diciembre - 1 de enero</span>
-      </div>
-    </div>
+        <div class="festivity-card">
+          <img src="./assets/san-juan.webp" alt="Feast of Saint John" />
+          <div class="festivity-card-content">
+            <h3>Feast of Saint John</h3>
+            <p>
+              A local tradition featuring bonfires, fireworks, music, and a
+              festive atmosphere at the Basilica of St. John Lateran.
+            </p>
+            <span>June 23–24</span>
+          </div>
+        </div>
 
-    <div class="festivity-card">
-      <img src="./assets/festa-roma.webp" alt="Aniversario de Roma">
-      <div class="festivity-card-content">
-        <h3>Natale di Roma</h3>
-        <p>Conmemoración de la fundación de Roma con desfiles históricos y eventos en el Coliseo y el Foro.</p>
-        <span>21 de abril</span>
-      </div>
-    </div>
+        <div class="festivity-card">
+          <img src="./assets/estate-romana.webp" alt="Roman Summer" />
+          <div class="festivity-card-content">
+            <h3>Estate Romana</h3>
+            <p>
+              A vibrant summer festival with concerts, open-air cinema, theater,
+              and street food along the Tiber River and in city parks.
+            </p>
+            <span>July – August</span>
+          </div>
+        </div>
 
-  </div>
-</section>
-    
-      
-      
-    
-    </body>
+        <div class="festivity-card">
+          <img src="./assets/navidad.webp" alt="Christmas in Rome" />
+          <div class="festivity-card-content">
+            <h3>Christmas in Rome</h3>
+            <p>
+              The city comes alive with lights, nativity scenes, Christmas
+              markets, and sacred music, especially in Piazza Navona and Vatican
+              City.
+            </p>
+            <span>December 25</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="references">
+        <strong>Sources:</strong>
+        <a href="https://turismoroma.it/en/node/1102" target="_blank"
+          >Turismo Roma</a
+        >,
+        <a href="https://www.romeguide.it/?lang=eng" target="_blank"
+          >Rome Guide</a
+        >,
+        <a
+          href="https://en.wikipedia.org/wiki/Public_holidays_in_Italy"
+          target="_blank"
+          >Wikipedia - Public Holidays in Italy</a
+        >,
+        <a href="https://www.romatoday.it/eventi" target="_blank">RomaToday</a>
+      </p>
+    </section>
+  </body>
 </html>

@@ -1,0 +1,187 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/tourist-attractions.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/styles.css" /> <!-- Link to external CSS file for styles -->
+  </head>
+  <header>
+    <script src="js/navbar.js"></script> <!-- Link to external JavaScript file for navbar functionality -->
+    <nav class="navbar">
+      <div class="logo">Rome</div> 
+      
+      <button class="toggle" onclick="toggleMenu()">☰</button> 
+  
+      <ul class="nav-links" id="navLinks"> 
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history-culture.html">History & Culture</a></li>
+        <li><a href="tourist-attractions.html">Tourist Attractions</a></li>
+        <li><a href="gastronomy.html">Gastronomy</a></li>
+        <li><a href="how-to-get-there.html">How to Get There</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <section class="attraction-card">
+      <div class="attraction-header">
+        <img
+          src="./assets/coliseo.webp"
+          alt="Colosseum"
+          class="attraction-photo"
+        />
+        <div class="attraction-text">
+          <h2 class="attraction-title">Colosseum</h2>
+          <p class="attraction-description">
+            The Flavian Amphitheater, better known as the Colosseum, is one of
+            the most iconic landmarks of Ancient Rome. Built in the 1st century
+            AD, it hosted gladiator fights, public spectacles, and remains one
+            of the most visited monuments in the world.
+          </p>
+        </div>
+      </div>
+
+      <div class="attraction-details">
+        <div class="info-box">
+          <strong>Opening Hours:</strong>
+          <p>8:30 AM – 7:00 PM (varies by season)</p>
+        </div>
+        <div class="info-box">
+          <strong>Entry Fee:</strong>
+          <p>€16 (includes access to the Roman Forum)</p>
+        </div>
+        <div class="info-box">
+          <strong>Official Website:</strong>
+          <p><a href="https://colosseo.it" target="_blank">colosseo.it</a></p>
+        </div>
+      </div>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.1497872740764!2d12.490041915415036!3d41.890210079220364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61aa25f6ac27%3A0x7ed605a78c0ab0f5!2sColosseum!5e0!3m2!1sen!2sit!4v1681671930000!5m2!1sen!2sit"
+          width="100%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <section class="attraction-card">
+        <div class="attraction-header">
+          <img src="./assets/rome-forum.webp" alt="Roman Forum" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Roman Forum</h2>
+            <p class="attraction-description">The ancient political and social heart of Rome, home to ruins of temples, basilicas, and the Senate House.</p>
+          </div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Opening Hours:</strong><p>8:30 AM – 7:00 PM</p></div>
+          <div class="info-box"><strong>Entry Fee:</strong><p>Included with Colosseum ticket</p></div>
+          <div class="info-box"><strong>Website:</strong><p><a href="https://parcocolosseo.it" target="_blank">parcocolosseo.it</a></p></div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Roman+Forum+Rome&output=embed" width="100%" height="300" style="border:0;"></iframe>
+        </div>
+      </section>
+
+      <section class="attraction-card">
+        <div class="attraction-header">
+          <img src="./assets/palatine.webp" alt="Palatine Hill" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Palatine Hill</h2>
+            <p class="attraction-description">The legendary founding place of Rome and site of imperial palaces with panoramic views over the city.</p>
+          </div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Opening Hours:</strong><p>9:00 AM – 7:00 PM</p></div>
+          <div class="info-box"><strong>Entry Fee:</strong><p>Included with Colosseum ticket</p></div>
+          <div class="info-box"><strong>Website:</strong><p><a href="https://parcocolosseo.it" target="_blank">parcocolosseo.it</a></p></div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Palatine+Hill+Rome&output=embed" width="100%" height="300" style="border:0;"></iframe>
+        </div>
+      </section>
+      
+      <section class="attraction-card">
+        <div class="attraction-header">
+          <img src="./assets/pantheon.webp" alt="Pantheon" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Pantheon</h2>
+            <p class="attraction-description">Originally a Roman temple, now a church. Known for its massive dome and the oculus that opens to the sky.</p>
+          </div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Opening Hours:</strong><p>9:00 AM – 7:00 PM</p></div>
+          <div class="info-box"><strong>Entry Fee:</strong><p>€5</p></div>
+          <div class="info-box"><strong>Website:</strong><p><a href="https://cultura.gov.it/pantheon" target="_blank">cultura.gov.it</a></p></div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Pantheon+Rome&output=embed" width="100%" height="300" style="border:0;"></iframe>
+        </div>
+      </section>
+      <section class="attraction-card">
+        <div class="attraction-header">
+          <img src="./assets/santAngelo.webp" alt="Castel Sant'Angelo" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Castel Sant'Angelo</h2>
+            <p class="attraction-description">Historic mausoleum turned fortress and papal residence, connected to the Vatican via a secret passage.</p>
+          </div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Opening Hours:</strong><p>9:00 AM – 7:30 PM</p></div>
+          <div class="info-box"><strong>Entry Fee:</strong><p>€15</p></div>
+          <div class="info-box"><strong>Website:</strong><p><a href="https://castelsantangelo.beniculturali.it" target=\"_blank\">castelsantangelo.beniculturali.it</a></p></div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Castel+Sant'Angelo+Rome&output=embed" width="100%" height="300" style="border:0;"></iframe>
+        </div>
+      </section>
+
+      <section class="attraction-card">
+        <div class="attraction-header">
+          <img src="./assets/Trevi-Fountain.jpg" alt="Trevi Fountain" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Trevi Fountain</h2>
+            <p class="attraction-description">The most famous fountain in Rome, where visitors toss a coin to ensure their return to the Eternal City.</p>
+          </div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Opening Hours:</strong><p>Always open</p></div>
+          <div class="info-box"><strong>Entry Fee:</strong><p>Free</p></div>
+          <div class="info-box"><strong>Website:</strong><p><a href=\"https://turismoroma.it/en/place/trevi-fountain\" target=\"_blank\">turismoroma.it</a></p></div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Fontana+di+Trevi+Rome&output=embed" width="100%" height="300" style="border:0;"></iframe>
+        </div>
+      </section>
+
+      <section class="attraction-card">
+        <div class="attraction-header">
+          <img src="./assets/navona.webp" alt="Piazza Navona" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Piazza Navona</h2>
+            <p class="attraction-description">A lively Baroque square featuring fountains, artists, cafes, and the famous Fountain of the Four Rivers by Bernini.</p>
+          </div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Opening Hours:</strong><p>Always open</p></div>
+          <div class="info-box"><strong>Entry Fee:</strong><p>Free</p></div>
+          <div class="info-box"><strong>Website:</strong><p><a href=\"https://turismoroma.it/en/place/piazza-navona\" target=\"_blank\">turismoroma.it</a></p></div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Piazza+Navona+Rome&output=embed" width="100%" height="300" style="border:0;"></iframe>
+        </div>
+      </section>
+      
+      
+      
+      
+      
+      
+      
+      
+  </body>
+</html>
