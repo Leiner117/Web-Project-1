@@ -1,0 +1,100 @@
+/* Contenedor general */
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  /* Cada tarjeta */
+  .transport-card {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  /* Imagen */
+  .transport-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    align-self: center;
+    
+  }
+  
+  /* Contenido textual */
+  .transport-content {
+    flex: 1;
+  }
+  
+  .transport-title {
+    color: #0b2719;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .transport-paragraph {
+    margin: 0.25rem 0;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .transport-services {
+    margin: 0.5rem 0 1rem 1rem;
+    padding-left: 1rem;
+    list-style-type: disc;
+  }
+  
+  .transport-link {
+    color: #0b2719;
+    text-decoration: underline;
+  }
+  
+  .map-wrapper {
+    margin-top: 1rem;
+  }
+  
+  .map-iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 8px;
+  }
+  
+  /* Estilo responsive para pantallas grandes */
+  @media (min-width: 768px) {
+    .transport-card {
+      flex-direction: row;
+      align-items: stretch;
+      
+    }
+  
+    .transport-image {
+      width: 50%;
+      max-width: 600px;
+      height: 100%;
+      object-fit: cover;
+      
+    }
+  
+    .transport-content {
+      flex: 1;
+      padding-left: 2rem;
+    }
+  
+    .map-iframe {
+      height: 250px;
+    }
+  }
+  
