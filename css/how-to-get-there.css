@@ -1,4 +1,3 @@
-/* Contenedor general */
 .main-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -9,92 +8,89 @@
     margin-top: 3rem;
   }
   
-  /* Cada tarjeta */
-  .transport-card {
+  .transport-card.modern {
     border: 1px solid #ddd;
-    padding: 1.5rem;
     border-radius: 10px;
-    background-color: #ffffff;
+    overflow: hidden;
+    background-color: #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .transport-image-header {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+  }
+  
+  .transport-body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 1.5rem;
-  }
-  
-  /* Imagen */
-  .transport-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
-    align-self: center;
-    
-  }
-  
-  /* Contenido textual */
-  .transport-content {
-    flex: 1;
+    padding: 1.5rem;
   }
   
   .transport-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
     color: #0b2719;
-    font-size: 1.5rem;
-    margin-bottom: 0.25rem;
   }
   
-  .transport-paragraph {
-    margin: 0.25rem 0;
-    line-height: 1.6;
+  .info-group p {
+    margin: 0.5rem 0;
     font-size: 1rem;
-  }
-  
-  .transport-services {
-    margin: 0.5rem 0 1rem 1rem;
-    padding-left: 1rem;
-    list-style-type: disc;
+    line-height: 1.5;
   }
   
   .transport-link {
-    color: #0b2719;
+    color: #78942a;
     text-decoration: underline;
   }
   
+  .services h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+  
+  .service-box {
+    background-color: #f4f6f8;
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  
   .map-wrapper {
+    width: 100%;
     margin-top: 1rem;
   }
   
   .map-iframe {
     width: 100%;
     height: 300px;
-    border: 0;
+    border: none;
     border-radius: 8px;
   }
   
-  /* Estilo responsive para pantallas grandes */
-  @media (min-width: 768px) {
-    .transport-card {
+  /* Responsive */
+  @media (min-width: 992px) {
+    .transport-body {
       flex-direction: row;
-      align-items: stretch;
-      
+      gap: 2rem;
     }
   
-    .transport-image {
-      width: 50%;
-      max-width: 600px;
-      height: 100%;
-      object-fit: cover;
-      
+    .transport-info {
+      flex: 2;
     }
   
-    .transport-content {
+    .map-wrapper {
       flex: 1;
-      padding-left: 2rem;
-    }
-  
-    .map-iframe {
-      height: 250px;
+      margin-top: 0;
     }
   }
   
