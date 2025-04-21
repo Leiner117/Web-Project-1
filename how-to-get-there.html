@@ -1,146 +1,219 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Transporte en Roma</title>
-  <link rel="stylesheet" href="./css/how-to-get-there.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transporte en Roma</title>
+    <link rel="stylesheet" href="./css/how-to-get-there.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body>
-  <header>
-        <script src="js/navbar.js"></script> <!-- Link to external JavaScript file for navbar functionality -->
-        <nav class="navbar">
-          <div class="logo">Rome</div> 
-          
-          <button class="toggle" onclick="toggleMenu()">☰</button>
-      
-          <ul class="nav-links" id="navLinks"> <!-- Navigation links -->
-            <li><a href="index.html">Home</a></li>
-            <li><a href="history-culture.html">History & Culture</a></li>
-            <li><a href="tourist-attractions.html">Tourist Attractions</a></li>
-            <li><a href="gastronomy.html">Gastronomy</a></li>
-            <li><a href="how-to-get-there.html">How to Get There</a></li>
-          </ul>
-        </nav>
-  </header>
+  </head>
+  <body>
+    <header>
+      <script src="js/navbar.js"></script>
+      <nav class="navbar">
+        <div class="logo">Roma</div>
+        <button class="toggle" onclick="toggleMenu()">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="history-culture.html">Historia y Cultura</a></li>
+          <li><a href="tourist-attractions.html">Atracciones turisticas</a></li>
+          <li><a href="gastronomy.html">Gastronomia</a></li>
+          <li><a href="how-to-get-there.html">Como llegar</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main class="main-container">
-    
-    <!-- Aeropuerto Leonardo da Vinci -->
-    <section class="transport-card modern">
-      <img src="./assets/aeropuerto1.webp" alt="Aeropuerto Fiumicino" class="transport-image-header" />
-      <div class="transport-body">
-        <div class="transport-info">
-          <h2 class="transport-title">Aeropuerto Leonardo da Vinci - Fiumicino</h2>
-          <div class="info-group">
-            <p><strong>Dirección:</strong> Via dell'Aeroporto di Fiumicino, 00054 Fiumicino RM, Italia</p>
-            <p><strong>Horario:</strong> Abierto 24 horas</p>
-            <p><strong>Tarifas:</strong> Consultar aerolíneas</p>
-            <p><a href="https://www.adr.it/fiumicino" target="_blank" class="transport-link">Sitio web oficial</a></p>
-          </div>
-          <div class="services">
-            <h3>Servicios:</h3>
-            <div class="services-grid">
-              <div class="service-box">Wi-Fi</div>
-              <div class="service-box">Restaurantes</div>
-              <div class="service-box">Alquiler de coches</div>
-              <div class="service-box">Duty Free</div>
-              <div class="service-box">Cajeros automáticos</div>
+    <main class="main-container">
+      <section class="transport-card modern">
+        <img
+          src="./assets/aeropuerto1.webp"
+          alt="Aeropuerto Fiumicino"
+          class="transport-image-header"
+        />
+        <div class="transport-body">
+          <div class="transport-info">
+            <h2 class="transport-title">
+              Aeropuerto Leonardo da Vinci - Fiumicino
+            </h2>
+            <div class="info-group">
+              <p>
+                <strong>Dirección:</strong> Via dell'Aeroporto di Fiumicino,
+                00054 Fiumicino RM, Italia
+              </p>
+              <p><strong>Horario:</strong> Abierto 24 horas</p>
+              <p><strong>Tarifas:</strong> Consultar aerolíneas</p>
+              <p>
+                <a
+                  href="https://www.adr.it/fiumicino"
+                  target="_blank"
+                  class="transport-link"
+                  >Sitio web oficial</a
+                >
+              </p>
+            </div>
+            <div class="services">
+              <h3>Servicios:</h3>
+              <div class="services-grid">
+                <div class="service-box">Wi-Fi</div>
+                <div class="service-box">Restaurantes</div>
+                <div class="service-box">Alquiler de coches</div>
+                <div class="service-box">Duty Free</div>
+                <div class="service-box">Cajeros automáticos</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="map-wrapper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23794.399012641887!2d12.2389!3d41.8003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325f0793898141f%3A0xafe513b4e358316f!2sAeropuerto%20de%20Roma-Fiumicino!5e0!3m2!1ses!2sus!4v1745211367723!5m2!1ses!2sus" class="map-iframe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </section>
-
-    <!-- Aeropuerto Ciampino -->
-    <section class="transport-card modern">
-      <img src="./assets/aeropuerto2.webp" alt="Aeropuerto Ciampino" class="transport-image-header" />
-      <div class="transport-body">
-        <div class="transport-info">
-          <h2 class="transport-title">Aeropuerto Ciampino - G. B. Pastine</h2>
-          <div class="info-group">
-            <p><strong>Dirección:</strong> Via Appia Nuova, 1651, 00040 Ciampino RM, Italia</p>
-            <p><strong>Horario:</strong> 04:30 - 00:00</p>
-            <p><strong>Tarifas:</strong> Consultar aerolíneas</p>
-            <p><a href="https://www.adr.it/ciampino" target="_blank" class="transport-link">Sitio web oficial</a></p>
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23794.399012641887!2d12.2389!3d41.8003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325f0793898141f%3A0xafe513b4e358316f!2sAeropuerto%20de%20Roma-Fiumicino!5e0!3m2!1ses!2sus!4v1745211367723!5m2!1ses!2sus"
+              class="map-iframe"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-          <div class="services">
-            <h3>Servicios:</h3>
-            <div class="services-grid">
-              <div class="service-box">Wi-Fi</div>
-              <div class="service-box">Taxis</div>
-              <div class="service-box">Buses</div>
-              <div class="service-box">Cafeterías</div>
+        </div>
+      </section>
+      <section class="transport-card modern">
+        <img
+          src="./assets/aeropuerto2.webp"
+          alt="Aeropuerto Ciampino"
+          class="transport-image-header"
+        />
+        <div class="transport-body">
+          <div class="transport-info">
+            <h2 class="transport-title">Aeropuerto Ciampino - G. B. Pastine</h2>
+            <div class="info-group">
+              <p>
+                <strong>Dirección:</strong> Via Appia Nuova, 1651, 00040
+                Ciampino RM, Italia
+              </p>
+              <p><strong>Horario:</strong> 04:30 - 00:00</p>
+              <p><strong>Tarifas:</strong> Consultar aerolíneas</p>
+              <p>
+                <a
+                  href="https://www.adr.it/ciampino"
+                  target="_blank"
+                  class="transport-link"
+                  >Sitio web oficial</a
+                >
+              </p>
+            </div>
+            <div class="services">
+              <h3>Servicios:</h3>
+              <div class="services-grid">
+                <div class="service-box">Wi-Fi</div>
+                <div class="service-box">Taxis</div>
+                <div class="service-box">Buses</div>
+                <div class="service-box">Cafeterías</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="map-wrapper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.349558218142!2d12.593174099999999!3d41.7992296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132588b6389de903%3A0xedb6061d8fc5510d!2sAeropuerto%20G.B.%20-%20Roma%20-%20Ciampino!5e0!3m2!1ses-419!2scr!4v1745211443275!5m2!1ses-419!2scr" class="map-iframe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </section>
-
-    <!-- Estación de tren Roma Termini -->
-    <section class="transport-card modern">
-      <img src="./assets/terminal1.webp" alt="Estación Roma Termini" class="transport-image-header" />
-      <div class="transport-body">
-        <div class="transport-info">
-          <h2 class="transport-title">Estación de tren Roma Termini</h2>
-          <div class="info-group">
-            <p><strong>Dirección:</strong> Piazza dei Cinquecento, 1, 00185 Roma RM, Italia</p>
-            <p><strong>Horario:</strong> 04:30 - 01:30</p>
-            <p><strong>Tarifas:</strong> Desde 1.50€</p>
-            <p><a href="https://www.romatermini.com/" target="_blank" class="transport-link">Sitio web oficial</a></p>
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.349558218142!2d12.593174099999999!3d41.7992296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132588b6389de903%3A0xedb6061d8fc5510d!2sAeropuerto%20G.B.%20-%20Roma%20-%20Ciampino!5e0!3m2!1ses-419!2scr!4v1745211443275!5m2!1ses-419!2scr"
+              class="map-iframe"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-          <div class="services">
-            <h3>Servicios:</h3>
-            <div class="services-grid">
-              <div class="service-box">Metro</div>
-              <div class="service-box">Autobuses</div>
-              <div class="service-box">Wi-Fi</div>
-              <div class="service-box">Tiendas</div>
-              <div class="service-box">Consigna de equipaje</div>
+        </div>
+      </section>
+      <section class="transport-card modern">
+        <img
+          src="./assets/terminal1.webp"
+          alt="Estación Roma Termini"
+          class="transport-image-header"
+        />
+        <div class="transport-body">
+          <div class="transport-info">
+            <h2 class="transport-title">Estación de tren Roma Termini</h2>
+            <div class="info-group">
+              <p>
+                <strong>Dirección:</strong> Piazza dei Cinquecento, 1, 00185
+                Roma RM, Italia
+              </p>
+              <p><strong>Horario:</strong> 04:30 - 01:30</p>
+              <p><strong>Tarifas:</strong> Consultar en la Estación</p>
+              <p>
+                <a
+                  href="https://www.romatermini.com/"
+                  target="_blank"
+                  class="transport-link"
+                  >Sitio web oficial</a
+                >
+              </p>
+            </div>
+            <div class="services">
+              <h3>Servicios:</h3>
+              <div class="services-grid">
+                <div class="service-box">Metro</div>
+                <div class="service-box">Autobuses</div>
+                <div class="service-box">Wi-Fi</div>
+                <div class="service-box">Tiendas</div>
+                <div class="service-box">Consigna de equipaje</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="map-wrapper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.607976777036!2d12.501575599999999!3d41.9012873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61a439c0ffef%3A0xa4307dbef261a994!2sEstaci%C3%B3n%20de%20Roma%20Termini!5e0!3m2!1ses-419!2scr!4v1745211495440!5m2!1ses-419!2scr" class="map-iframe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </section>
-
-    <!-- Estación de metro Ottaviano -->
-    <section class="transport-card modern">
-      <img src="./assets/terminal2.webp" alt="Estación de metro Ottaviano" class="transport-image-header" />
-      <div class="transport-body">
-        <div class="transport-info">
-          <h2 class="transport-title">Estación de metro Ottaviano</h2>
-          <div class="info-group">
-            <p><strong>Dirección:</strong> Viale Giulio Cesare, 00192 Roma RM, Italia</p>
-            <p><strong>Horario:</strong> 05:30 - 23:30</p>
-            <p><strong>Tarifas:</strong> Billete sencillo: 1.50€</p>
-            <p><a href="https://www.atac.roma.it/" target="_blank" class="transport-link">Sitio web oficial</a></p>
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.607976777036!2d12.501575599999999!3d41.9012873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61a439c0ffef%3A0xa4307dbef261a994!2sEstaci%C3%B3n%20de%20Roma%20Termini!5e0!3m2!1ses-419!2scr!4v1745211495440!5m2!1ses-419!2scr"
+              class="map-iframe"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-          <div class="services">
-            <h3>Servicios:</h3>
-            <div class="services-grid">
-              <div class="service-box">Línea A del metro</div>
-              <div class="service-box">Accesible</div>
-              <div class="service-box">Conexión a buses</div>
+        </div>
+      </section>
+
+      <!-- Estación de metro Ottaviano -->
+      <section class="transport-card modern">
+        <img
+          src="./assets/terminal2.webp"
+          alt="Estación de metro Ottaviano"
+          class="transport-image-header"
+        />
+        <div class="transport-body">
+          <div class="transport-info">
+            <h2 class="transport-title">Estación de metro Ottaviano</h2>
+            <div class="info-group">
+              <p>
+                <strong>Dirección:</strong> Viale Giulio Cesare, 00192 Roma RM,
+                Italia
+              </p>
+              <p><strong>Horario:</strong> 05:30 - 23:30</p>
+              <p><strong>Tarifas:</strong> Consultar en la Estación</p>
+              <p>
+                <a
+                  href="https://www.romatermini.com/"
+                  target="_blank"
+                  class="transport-link"
+                  >Sitio web oficial</a
+                >
+              </p>
+            </div>
+            <div class="services">
+              <h3>Servicios:</h3>
+              <div class="services-grid">
+                <div class="service-box">Línea A del metro</div>
+                <div class="service-box">Accesible</div>
+                <div class="service-box">Conexión a buses</div>
+              </div>
             </div>
           </div>
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1322.6383859724635!2d12.4558751043709!3d41.909569724818404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6061b54c387d%3A0x1896aa1d980f2634!2sOttaviano!5e0!3m2!1ses-419!2scr!4v1745211289954!5m2!1ses-419!2scr"
+              class="map-iframe"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
-        <div class="map-wrapper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1322.6383859724635!2d12.4558751043709!3d41.909569724818404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6061b54c387d%3A0x1896aa1d980f2634!2sOttaviano!5e0!3m2!1ses-419!2scr!4v1745211289954!5m2!1ses-419!2scr" class="map-iframe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </section>
-
-  </main>
-</body>
+      </section>
+    </main>
+  </body>
 </html>

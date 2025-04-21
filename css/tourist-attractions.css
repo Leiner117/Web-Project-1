@@ -1,34 +1,29 @@
-/* Layout general */
 .main-container {
   display: flex;
-  width: 100%; /* ocupa todo el ancho disponible */
+  width: 100%;
   padding: 2rem;
   gap: 2rem;
   align-items: stretch;
   min-height: 100vh;
 }
-
-
 .sidebar {
-  flex: 0 0 260px; 
+  flex: 0 0 260px;
   position: sticky;
   top: 100px;
   align-self: flex-start;
   background: #ffffff;
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
-  margin-left: 0; 
+  box-shadow: 0 1px 8px #0000000F;
+  margin-left: 0;
   height: fit-content;
   margin-top: 2rem;
 }
-
 .attraction-menu {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .attraction-menu li a {
   display: block;
   padding: 10px 15px;
@@ -41,22 +36,16 @@
   font-weight: 500;
   transition: all 0.2s ease;
 }
-
-.attraction-menu li a:hover,
-.attraction-menu li a.active {
-  border-left-color: #d38b1c;
-  background-color: #fff4e0;
+.attraction-menu li a:hover{
+  border-left-color: #556b2f;
+  background-color: #f7f9f9;
 }
-
-/* Contenido principal */
 .content {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
-
-/* Tarjeta de atracción vertical */
 .attraction-card {
   background: #ffffff;
   border-radius: 12px;
@@ -68,20 +57,16 @@
   margin-top: 2rem;
   scroll-margin-top: 100px;
 }
-
-/* Imagen principal */
 .attraction-photo {
   max-width: 700px;
   margin: 0 auto;
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9; /* mantiene proporción widescreen */
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px #0000000F;
 }
-
-/* Título y descripción */
 .attraction-title {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -94,8 +79,6 @@
   line-height: 1.6;
   margin-bottom: 0.5rem;
 }
-
-/* Enlace */
 .attraction-link {
   color: #f26d21;
   font-weight: 500;
@@ -103,8 +86,6 @@
   display: inline-block;
   margin-bottom: 1rem;
 }
-
-/* Info-box tipo tarjeta */
 .attraction-details {
   display: flex;
   flex-wrap: wrap;
@@ -116,25 +97,22 @@
   flex: 1 1 0;
   min-width: 200px;
   align-items: center;
-  background-color: #e0edff;
+  background-color: #dbeedb;
   border-radius: 12px;
   padding: 1rem;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 5px #0000000F;
+  border-left: 5px solid #6b8e23;
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
   font-size: 0.95rem;
   color: #333;
 }
-
-/* Mapa */
 .map-container {
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 8px #0000000F;
 }
-
-/* Responsive */
 @media (max-width: 1024px) {
   .main-container {
     flex-direction: column;

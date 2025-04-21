@@ -1,285 +1,339 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/tourist-attractions.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <header>
-    <script src="js/navbar.js"></script> 
-    <nav class="navbar">
-      <div class="logo">Rome</div> 
-      
-      <button class="toggle" onclick="toggleMenu()">☰</button> 
-  
-      <ul class="nav-links" id="navLinks"> 
-        <li><a href="index.html">Home</a></li>
-        <li><a href="history-culture.html">History & Culture</a></li>
-        <li><a href="tourist-attractions.html">Tourist Attractions</a></li>
-        <li><a href="gastronomy.html">Gastronomy</a></li>
-        <li><a href="how-to-get-there.html">How to Get There</a></li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atracciones Turisticas</title>
+  <link rel="stylesheet" href="css/tourist-attractions.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<header>
+  <script src="js/navbar.js"></script>
+  <nav class="navbar">
+    <div class="logo">Roma</div>
+    <button class="toggle" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="history-culture.html">Historia y Cultura</a></li>
+      <li><a href="tourist-attractions.html">Atracciones turisticas</a></li>
+      <li><a href="gastronomy.html">Gastronomia</a></li>
+      <li><a href="how-to-get-there.html">Como llegar</a></li>
+    </ul>
+  </nav>
+</header>
+<body>
+  <div class="main-container">
+    <aside class="sidebar">
+      <ul class="attraction-menu">
+        <li><a href="#colosseum">Coliseo</a></li>
+        <li><a href="#forum">Foro Romano</a></li>
+        <li><a href="#palatine">Monte Palatino</a></li>
+        <li><a href="#pantheon">Panteón</a></li>
+        <li><a href="#santangelo">Castillo Sant'Angelo</a></li>
+        <li><a href="#san-calisto">Catacumbas de San Calisto</a></li>
+        <li><a href="#borghese">Galería Borghese</a></li>
+        <li><a href="#doria">Galería Doria Pamphilj</a></li>
+        <li><a href="#caracalla">Termas de Caracalla</a></li>
+        <li><a href="#domusaurea">Domus Aurea</a></li>
       </ul>
-    </nav>
-  </header>
-  <body>
-    <div class="main-container">
-      <aside class="sidebar">
-        <ul class="attraction-menu">
-          <li><a href="#colosseum">Coliseo</a></li>
-          <li><a href="#forum">Foro Romano</a></li>
-          <li><a href="#palatine">Monte Palatino</a></li>
-          <li><a href="#pantheon">Panteón</a></li>
-          <li><a href="#santangelo">Castel Sant'Angelo</a></li>
-          <li><a href="#trevi">Fontana di Trevi</a></li>
-          <li><a href="#borghese">Borghese Gallery</a></li>
-          <li><a href="#doria">Doria Pamphilj Gallery</a></li>
-          <li><a href="#caracalla">Baths of Caracalla</a></li>
-          <li><a href="#domusaurea">Domus Aurea</a></li>
-        </ul>
-      </aside>
+    </aside>
     <div class="content">
-      <section class="attraction-card" id= "colosseum">
+      <section class="attraction-card" id="colosseum">
         <div class="attraction-header">
-          <img
-            src="./assets/coliseo.webp"
-            alt="Colosseum"
-            class="attraction-photo"
-          />
+          <img src="./assets/coliseo.webp" alt="Colosseum" class="attraction-photo" />
           <div class="attraction-text">
-            <h2 class="attraction-title">Colosseum</h2>
+            <h2 class="attraction-title">Coliseo</h2>
             <p class="attraction-description">
-              The Flavian Amphitheater, better known as the Colosseum, is one of
-              the most iconic landmarks of Ancient Rome. Built in the 1st century
-              AD, it hosted gladiator fights, public spectacles, and remains one
-              of the most visited monuments in the world.
+              El Anfiteatro Flavio, más conocido como el Colosseo, es uno de los
+              monumentos más emblemáticos de la Antigua Roma. Construido en el siglo I
+              d.C., fue escenario de combates de gladiadores, espectáculos públicos y
+              hoy en día sigue siendo uno de los sitios más visitados del mundo.
             </p>
           </div>
         </div>
-  
         <div class="attraction-details">
           <div class="info-box">
-            <strong>Opening Hours:</strong>
-            <p>8:30 AM – 7:00 PM (varies by season)</p>
+            <strong>Horario de apertura:</strong>
+            <p>8:30 a.m. – 7:00 p.m. (varía según la temporada)</p>
           </div>
           <div class="info-box">
-            <strong>Entry Fee:</strong>
-            <p>€16 (includes access to the Roman Forum)</p>
+            <strong>Tarifa de entrada:</strong>
+            <p>€18 (incluye varios accesos)</p>
           </div>
           <div class="info-box">
-            <strong>Official Website:</strong>
+            <strong>Sitio oficial:</strong>
             <p><a href="https://colosseo.it" target="_blank">colosseo.it</a></p>
           </div>
         </div>
-  
+
         <div class="map-container">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.1497872740764!2d12.490041915415036!3d41.890210079220364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61aa25f6ac27%3A0x7ed605a78c0ab0f5!2sColosseum!5e0!3m2!1sen!2sit!4v1681671930000!5m2!1sen!2sit"
-            width="100%"
-            height="300"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.1232322663664!2d12.4896632260852!3d41.89020677124048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseo%20de%20Roma!5e0!3m2!1ses-419!2scr!4v1745247714299!5m2!1ses-419!2scr"
+            width="100%" height="300" style="border: 0"></iframe>
         </div>
       </section>
       <section class="attraction-card" id="forum">
-          <div class="attraction-header">
-            <img src="./assets/rome-forum.webp" alt="Roman Forum" class="attraction-photo" />
-            <div class="attraction-text">
-              <h2>Roman Forum</h2>
-              <p class="attraction-description">The ancient political and social heart of Rome, home to ruins of temples, basilicas, and the Senate House.</p>
-            </div>
+        <div class="attraction-header">
+          <img src="./assets/rome-forum.webp" alt="Roman Forum" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Foro Romano</h2>
+            <p class="attraction-description">El antiguo corazón político y social de Roma, hogar de ruinas de templos,
+              basílicas y la cuna del Senado.</p>
           </div>
-          <div class="attraction-details">
-            <div class="info-box"><strong>Opening Hours:</strong><p>8:30 AM – 7:00 PM</p></div>
-            <div class="info-box"><strong>Entry Fee:</strong><p>Included with Colosseum ticket</p></div>
-            <div class="info-box"><strong>Website:</strong><p><a href="https://parcocolosseo.it" target="_blank">parcocolosseo.it</a></p></div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box">
+            <strong>Horario de apertura:</strong>
+            <p>9:00 a.m. – 7:00 p.m. (varía según la temporada)</p>
           </div>
-          <div class="map-container">
-            <iframe src="https://www.google.com/maps?q=Roman+Forum+Rome&output=embed" width="100%" height="300" style="border:0;"></iframe>
+          <div class="info-box">
+            <strong>Tarifa de entrada:</strong>
+            <p>Incluida con la entrada al Colosseo</p>
           </div>
-        </section>
-  
-        <section class="attraction-card" id="palatine">
-          <div class="attraction-header">
-            <img src="./assets/palatine.webp" alt="Palatine Hill" class="attraction-photo" />
-            <div class="attraction-text">
-              <h2>Palatine Hill</h2>
-              <p class="attraction-description">The legendary founding place of Rome and site of imperial palaces with panoramic views over the city.</p>
-            </div>
+          <div class="info-box">
+            <strong>Sitio web:</strong>
+            <p><a href="https://parcocolosseo.it" target="_blank">parcocolosseo.it</a></p>
           </div>
-          <div class="attraction-details">
-            <div class="info-box"><strong>Opening Hours:</strong><p>9:00 AM – 7:00 PM</p></div>
-            <div class="info-box"><strong>Entry Fee:</strong><p>Included with Colosseum ticket</p></div>
-            <div class="info-box"><strong>Website:</strong><p><a href="https://parcocolosseo.it" target="_blank">parcocolosseo.it</a></p></div>
-          </div>
-          <div class="map-container">
-            <iframe src="https://www.google.com/maps?q=Palatine+Hill+Rome&output=embed" width="100%" height="300" style="border:0;"></iframe>
-          </div>
-        </section>
-        
-        <section class="attraction-card" id="pantheon">
-          <div class="attraction-header">
-            <img src="./assets/pantheon.webp" alt="Pantheon" class="attraction-photo" />
-            <div class="attraction-text">
-              <h2>Pantheon</h2>
-              <p class="attraction-description">Originally a Roman temple, now a church. Known for its massive dome and the oculus that opens to the sky.</p>
-            </div>
-          </div>
-          <div class="attraction-details">
-            <div class="info-box"><strong>Opening Hours:</strong><p>9:00 AM – 7:00 PM</p></div>
-            <div class="info-box"><strong>Entry Fee:</strong><p>€5</p></div>
-            <div class="info-box"><strong>Website:</strong><p><a href="https://cultura.gov.it/pantheon" target="_blank">cultura.gov.it</a></p></div>
-          </div>
-          <div class="map-container">
-            <iframe src="https://www.google.com/maps?q=Pantheon+Rome&output=embed" width="100%" height="300" style="border:0;"></iframe>
-          </div>
-        </section>
-        <section class="attraction-card" id="santangelo">
-          <div class="attraction-header">
-            <img src="./assets/santAngelo.webp" alt="Castel Sant'Angelo" class="attraction-photo" />
-            <div class="attraction-text">
-              <h2>Castel Sant'Angelo</h2>
-              <p class="attraction-description">Historic mausoleum turned fortress and papal residence, connected to the Vatican via a secret passage.</p>
-            </div>
-          </div>
-          <div class="attraction-details">
-            <div class="info-box"><strong>Opening Hours:</strong><p>9:00 AM – 7:30 PM</p></div>
-            <div class="info-box"><strong>Entry Fee:</strong><p>€15</p></div>
-            <div class="info-box"><strong>Website:</strong><p><a href="https://castelsantangelo.beniculturali.it" target=\"_blank\">castelsantangelo.beniculturali.it</a></p></div>
-          </div>
-          <div class="map-container">
-            <iframe src="https://www.google.com/maps?q=Castel+Sant'Angelo+Rome&output=embed" width="100%" height="300" style="border:0;"></iframe>
-          </div>
-        </section>
-  
-        <section class="attraction-card" id="borghese">
-          <div class="attraction-header">
-            <img src="./assets/Borghese-Gallery.webp" alt="Borghese Gallery" class="attraction-photo" />
-            <div class="attraction-text">
-              <h2>Borghese Gallery</h2>
-              <p class="attraction-description">
-                Housed in the Villa Borghese, this elegant museum features a world-renowned collection of sculptures and paintings by Bernini, Caravaggio, Raphael, and Titian.
-              </p>
-            </div>
-          </div>
-        
-          <div class="attraction-details">
-            <div class="info-box"><strong>Opening Hours:</strong><p>Tuesday – Sunday: 9:00 AM – 7:00 PM (Closed on Mondays)</p></div>
-            <div class="info-box"><strong>Entry Fee:</strong><p>€13 standard, €2 reservation fee required</p></div>
-            <div class="info-box"><strong>Website:</strong><p><a href="https://galleriaborghese.beniculturali.it/en/" target="_blank">galleriaborghese.beniculturali.it</a></p></div>
-          </div>
-        
-          <div class="map-container">
-            <iframe 
-              src="https://www.google.com/maps?q=Galleria+Borghese+Rome&output=embed" 
-              width="100%" 
-              height="300" 
-              style="border:0;" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>
-        </section>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Roman+Forum+Rome&output=embed" width="100%" height="300"
+            style="border:0;"></iframe>
+        </div>
+      </section>
 
-        <section class="attraction-card" id="doria">
-          <div class="attraction-header">
-            <img src="./assets/Doria-Pamphilj-Gallery.webp" alt="Galleria Doria Pamphilj" class="attraction-photo" />
-            <div class="attraction-text">
-              <h2>Galleria Doria Pamphilj</h2>
-              <p class="attraction-description">
-                A hidden gem in the heart of Rome, the Doria Pamphilj Gallery houses a stunning private collection of Baroque art, including works by Velázquez, Caravaggio, and Titian, all within a lavish historic palace.
-              </p>
-            </div>
+      <section class="attraction-card" id="palatine">
+        <div class="attraction-header">
+          <img src="./assets/palatine.webp" alt="Palatine Hill" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Monte Palatino</h2>
+            <p class="attraction-description"> El lugar legendario de la fundación de Roma y sede de los palacios
+              imperiales, con vistas panorámicas sobre la ciudad.</p>
           </div>
-        
-          <div class="attraction-details">
-            <div class="info-box"><strong>Opening Hours:</strong><p>Every day: 9:00 AM – 7:00 PM</p></div>
-            <div class="info-box"><strong>Entry Fee:</strong><p>€14 standard ticket</p></div>
-            <div class="info-box"><strong>Website:</strong><p><a href="https://www.doriapamphilj.it/en/" target="_blank">doriapamphilj.it</a></p></div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box">
+            <strong>Horario de apertura:</strong>
+            <p>9:00 a.m. – 7:00 p.m. (varía según la temporada)</p>
           </div>
-        
-          <div class="map-container">
-            <iframe 
-              src="https://www.google.com/maps?q=Galleria+Doria+Pamphilj+Rome&output=embed" 
-              width="100%" 
-              height="300" 
-              style="border:0;" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+          <div class="info-box">
+            <strong>Tarifa de entrada:</strong>
+            <p>Incluida con la entrada al Colosseo</p>
           </div>
-        </section>
-        <section class="attraction-card" id="caracalla">
-          <div class="attraction-header">
-            <img src="./assets/Caracalla-Baths.webp" alt="Baths of Caracalla" class="attraction-photo" />
-            <div class="attraction-text">
-              <h2>Baths of Caracalla</h2>
-              <p class="attraction-description">
-                One of the largest and best-preserved ancient thermal complexes in Rome, the Baths of Caracalla offer a glimpse into the grandeur of Roman public baths, with vast ruins, mosaics, and underground areas.
-              </p>
-            </div>
+          <div class="info-box">
+            <strong>Sitio web:</strong>
+            <p><a href="https://parcocolosseo.it" target="_blank">parcocolosseo.it</a></p>
           </div>
-        
-          <div class="attraction-details">
-            <div class="info-box"><strong>Opening Hours:</strong><p>Tuesday – Sunday: 9:00 AM – 6:30 PM (Closed on Mondays)</p></div>
-            <div class="info-box"><strong>Entry Fee:</strong><p>€8 standard, reduced rates available</p></div>
-            <div class="info-box"><strong>Website:</strong><p><a href="https://www.coopculture.it/en/poi/terme-di-caracalla/" target="_blank">coopculture.it</a></p></div>
+        </div>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.159724351032!2d12.484583277027705!3d41.889421921240455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b5a348f3a9%3A0xe88e25d48119af27!2sPalatine%20Hill!5e0!3m2!1ses-419!2scr!4v1745247845237!5m2!1ses-419!2scr"
+            width="100%" height="300" style="border:0;">
+          </iframe>
+        </div>
+      </section>
+
+      <section class="attraction-card" id="pantheon">
+        <div class="attraction-header">
+          <img src="./assets/pantheon.webp" alt="pantheon" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Panteón</h2>
+            <p class="attraction-description">
+              Originalmente un templo romano, hoy una iglesia. Conocido por su enorme cúpula y el óculo que se abre al
+              cielo.
+            </p>
           </div>
-        
-          <div class="map-container">
-            <iframe 
-              src="https://www.google.com/maps?q=Baths+of+Caracalla+Rome&output=embed" 
-              width="100%" 
-              height="300" 
-              style="border:0;" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Horario de apertura:</strong>
+            <p>9:00 a.m. – 8:00 p.m.</p>
           </div>
-        </section>
-        <section class="attraction-card" id="domusaurea">
-          <div class="attraction-header">
-            <img src="./assets/Domus-Aurea.webp" alt="Domus Aurea" class="attraction-photo" />
-            <div class="attraction-text">
-              <h2>Domus Aurea</h2>
-              <p class="attraction-description">
-                The Domus Aurea, or "Golden House", was Emperor Nero’s opulent palace complex, featuring vast halls, frescoes, and innovative architecture that still inspires awe. Guided tours take you underground to explore this fascinating archaeological site.
-              </p>
-            </div>
+          <div class="info-box"><strong>Tarifa de entrada:</strong>
+            <p>€17</p>
           </div>
-        
-          <div class="attraction-details">
-            <div class="info-box"><strong>Opening Hours:</strong><p>Only on weekends with guided tours (10:00 AM – 4:00 PM)</p></div>
-            <div class="info-box"><strong>Entry Fee:</strong><p>€16 standard ticket</p></div>
-            <div class="info-box"><strong>Website:</strong><p><a href="https://www.coopculture.it/en/poi/domus-aurea/" target="_blank">coopculture.it</a></p></div>
+          <div class="info-box"><strong>Sitio web:</strong>
+            <p><a href="https://www.pantheonroma-tickets.org/" target="_blank">pantheonroma-tickets.org</a></p>
           </div>
-        
-          <div class="map-container">
-            <iframe 
-              src="https://www.google.com/maps?q=Domus+Aurea+Rome&output=embed" 
-              width="100%" 
-              height="300" 
-              style="border:0;" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Pantheon+Rome&output=embed" width="100%" height="300"
+            style="border:0;"></iframe>
+        </div>
+      </section>
+
+      <section class="attraction-card" id="santangelo">
+        <div class="attraction-header">
+          <img src="./assets/santAngelo.webp" alt="Castel Sant'Angelo" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Castillo Sant'Angelo</h2>
+            <p class="attraction-description">
+              Histórico mausoleo convertido en fortaleza y residencia papal, conectado con el Vaticano mediante un
+              pasaje secreto.
+            </p>
           </div>
-        </section>
-        
-        
-        
-        
-  
-        
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Horario de apertura:</strong>
+            <p>9:00 a.m. – 7:30 p.m.</p>
+          </div>
+          <div class="info-box"><strong>Tarifa de entrada:</strong>
+            <p>€10</p>
+          </div>
+          <div class="info-box"><strong>Sitio web:</strong>
+            <p><a href="https://castillodesantangelo.com" target="_blank">castillodesantangelo.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Castel+Sant'Angelo+Rome&output=embed" width="100%" height="300"
+            style="border:0;"></iframe>
+        </div>
+      </section>
+      <section class="attraction-card" id="san-calisto">
+        <div class="attraction-header">
+          <img src="./assets/catacumbas-san-calisto.webp" alt="Catacumbas de San Calisto" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Catacumbas de San Callisto</h2>
+            <p class="attraction-description">
+              Las Catacumbas de San Calisto son uno de los complejos subterráneos cristianos más grandes y antiguos de Roma. Fundadas en el siglo II d.C., albergaron los restos de varios papas y mártires. Sus túneles, criptas ofrecen una mirada fascinante a los inicios del cristianismo.
+            </p>
+          </div>
+        </div>
+      
+        <div class="attraction-details">
+          <div class="info-box"><strong>Horario de apertura:</strong><p>9:30 a.m. - 5:00. pm.</p></div>
+          <div class="info-box"><strong>Tarifa de entrada:</strong><p>€10</p></div>
+          <div class="info-box"><strong>Sitio web:</strong><p><a href="https://www.catacombesancallisto.it/" target="_blank">catacombesancallisto.it</a></p></div>
+        </div>
+      
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps?q=Catacumbas+de+San+Calisto+Roma&output=embed" 
+            width="100%" 
+            height="300" 
+            style="border:0;">
+          </iframe>
+        </div>
+      </section>
+      
+
+      <section class="attraction-card" id="borghese">
+        <div class="attraction-header">
+          <img src="./assets/Borghese-Gallery.webp" alt="Galería Borghese" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Galería Borghese</h2>
+            <p class="attraction-description">
+              Ubicada en la Villa Borghese, este elegante museo alberga una colección de esculturas y pinturas de
+              renombre mundial de Bernini, Caravaggio, Rafael y Tiziano.
+            </p>
+          </div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Horario de apertura:</strong>
+            <p>9:00 a.m. – 7:00 p.m.</p>
+          </div>
+          <div class="info-box"><strong>Tarifa de entrada:</strong>
+            <p>€22</p>
+          </div>
+          <div class="info-box"><strong>Sitio web:</strong>
+            <p><a href="https://borghesegallery.com/"
+                target="_blank">borghesegallery.com</a></p>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Galleria+Borghese+Rome&output=embed" width="100%" height="300"
+            style="border:0;"></iframe>
+        </div>
+      </section>
+
+      <section class="attraction-card" id="doria">
+        <div class="attraction-header">
+          <img src="./assets/Doria-Pamphilj-Gallery.webp" alt="Galería Doria Pamphilj" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Galería Doria Pamphilj</h2>
+            <p class="attraction-description">
+              Una joya escondida en el corazón de Roma, la Galería Doria Pamphilj alberga una impresionante colección
+              privada de arte barroco, con obras de Velázquez, Caravaggio y Tiziano, dentro de un lujoso palacio
+              histórico.
+            </p>
+          </div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Horario de apertura:</strong>
+            <p>9:00 a.m. – 7:00 p.m.</p>
+          </div>
+          <div class="info-box"><strong>Tarifa de entrada:</strong>
+            <p>€17</p>
+          </div>
+          <div class="info-box"><strong>Sitio web:</strong>
+            <p><a href="https://www.doriapamphilj.it/" target="_blank">doriapamphilj.it</a></p>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Galleria+Doria+Pamphilj+Rome&output=embed" width="100%"
+            height="300" style="border:0;"></iframe>
+        </div>
+      </section>
+
+      <section class="attraction-card" id="caracalla">
+        <div class="attraction-header">
+          <img src="./assets/Caracalla-Baths.webp" alt="Termas de Caracalla" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Termas de Caracalla</h2>
+            <p class="attraction-description">
+              Uno de los complejos termales más grandes y mejor conservados de la antigua Roma.Las Termas de Caracalla
+              permiten vislumbrar la grandeza de los baños públicos romanos, con extensas ruinas, mosaicos y áreas
+              subterráneas.
+            </p>
+          </div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Horario de apertura:</strong>
+            <p>9:00 a.m. – 7:00 p.m.</p>
+          </div>
+          <div class="info-box"><strong>Tarifa de entrada:</strong>
+            <p>€8</p>
+          </div>
+          <div class="info-box"><strong>Sitio web:</strong>
+            <p><a href="https://www.museiitaliani.it/musei/c763f66b-8295-4800-a92d-b96a26659396" target="_blank">museiitaliani.it</a></p>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Baths+of+Caracalla+Rome&output=embed" width="100%" height="300"
+            style="border:0;"></iframe>
+        </div>
+      </section>
+
+      <section class="attraction-card" id="domusaurea">
+        <div class="attraction-header">
+          <img src="./assets/Domus-Aurea.webp" alt="Domus Aurea" class="attraction-photo" />
+          <div class="attraction-text">
+            <h2>Domus Aurea</h2>
+            <p class="attraction-description">
+              La Domus Aurea, o “Casa Dorada”, fue el opulento palacio del emperador Nerón. Presenta vastas salas,
+              frescos y una arquitectura innovadora que aún hoy asombra. Las visitas guiadas llevan al público al
+              subsuelo para explorar este fascinante sitio arqueológico.
+            </p>
+          </div>
+        </div>
+        <div class="attraction-details">
+          <div class="info-box"><strong>Horario de apertura:</strong>
+            <p>Solo fines de semana con visitas guiadas (9:15 a.m. – 5:00 p.m.)</p>
+          </div>
+          <div class="info-box"><strong>Tarifa de entrada:</strong>
+            <p>€26</p>
+          </div>
+          <div class="info-box"><strong>Sitio web:</strong>
+            <p><a href="https://colosseo.it/es/horarios-y-entradas/" target="_blank">parcocolosseo.it</a></p>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Domus+Aurea+Rome&output=embed" width="100%" height="300"
+            style="border:0;"></iframe>
+        </div>
+      </section>
+
     </div>
-  </body>
+</body>
+
 </html>
- 

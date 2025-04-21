@@ -1,70 +1,61 @@
-
 .navbar {
-    display: flex;                      
-    justify-content: space-between;     
-    align-items: center;               
-    background-color: #0d4a88;       
-    padding: 1rem 2rem;                
-    color: white;
-    position: fixed;                   
-    top: 0;
-    box-sizing: border-box;
-    z-index: 1000;
-    width: 100%;               
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f4f4f;
+  padding: 1rem 2rem;
+  color: white;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 1000;
+  width: 100%;
 }
-
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-
 .nav-links {
-    list-style: none;       
-    display: flex;          
-    gap: 1rem;             
-    transition: all 0.3s ease; 
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  transition: all 0.3s ease;
 }
-
-/* Each link */
 .nav-links li a {
-    text-decoration: none; 
-    color: white;
-    font-weight: 500;
-    transition: color 0.3s; 
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
 }
-
 .nav-links li a:hover {
-    color: #f1c40f;         
+  color: #6b8e23;
 }
-
-/* Hamburger menu icon */
 .toggle {
-    display: none;         
-    font-size: 1.5rem;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
-
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;        
-        flex-direction: column;
-        background-color: #0d4a88; 
-        position: absolute;
-        top: 100%; 
-        left: 0; 
-        width: 100%;
-        padding: 1rem;
-        box-sizing: border-box;
-    }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #2f4f4f;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
 
-    .nav-links.active {
-        display: flex;       
-    }
+  .nav-links.active {
+    display: flex;
+  }
 
-    .toggle {
-        display: block;    
-    }
+  .toggle {
+    display: block;
+  }
 }
