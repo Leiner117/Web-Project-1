@@ -36,7 +36,7 @@
 .modal {
   position: fixed;
   inset: 0;
-  background-color: #0000000F;
+  background-color: #0000000f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +55,7 @@
   position: relative;
   overflow-y: auto;
   max-height: 90vh;
-  box-shadow: 0 10px 25px #0000000F;
+  box-shadow: 0 10px 25px #0000000f;
 }
 .close-btn {
   position: absolute;
@@ -97,7 +97,7 @@
 .restaurant-modal {
   position: fixed;
   inset: 0;
-  background-color: #0000000F;
+  background-color: #0000000f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +118,7 @@
   position: relative;
   overflow-y: auto;
   max-height: 90vh;
-  box-shadow: 0 12px 28px #0000000F;
+  box-shadow: 0 12px 28px #0000000f;
 }
 
 .restaurant-close-btn {

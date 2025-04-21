@@ -1,74 +1,77 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gastronomia en Roma</title>
-    <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/gastronomy.css" />
-    <link rel="stylesheet" href="./css/restaurant.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <script src="js/navbar.js"></script>
-      <nav class="navbar">
-        <div class="logo">Roma</div>
-        <button class="toggle" onclick="toggleMenu()">☰</button>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="history-culture.html">Historia y Cultura</a></li>
-          <li><a href="tourist-attractions.html">Atracciones turisticas</a></li>
-          <li><a href="gastronomy.html">Gastronomia</a></li>
-          <li><a href="how-to-get-there.html">Como llegar</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section class="gastronomy-gallery">
-      <h2>Gastronomy of Rome</h2>
-      <div class="gallery-grid">
-        <div class="gallery-item" data-type="dish" data-id="carbonara">
-          <img src="./assets/carbonara.webp" alt="Spaghetti alla Carbonara" />
-        </div>
-        <div class="gallery-item" data-type="dish" data-id="coda">
-          <img src="./assets/coda.webp" alt="Coda alla Vaccinara" />
-        </div>
-        <div class="gallery-item" data-type="dish" data-id="cacioepepe">
-          <img src="./assets/cacioepepe.webp" alt="Cacio e Pepe" />
-        </div>
-        <div class="gallery-item" data-type="dish" data-id="saltimbocca">
-          <img src="./assets/saltimbocca.webp" alt="Saltimbocca alla Romana" />
-        </div>
-        <div class="gallery-item" data-type="dish" data-id="suppli">
-          <img src="./assets/suppli.webp" alt="Supplì" />
-        </div>
-        <div class="gallery-item" data-type="dish" data-id="pinsa">
-          <img src="./assets/pinsa.webp" alt="Pinsa Romana" />
-        </div>
-        <div class="gallery-item" data-type="restaurant" data-id="per-me">
-          <img src="./assets/per-me.webp" alt="per-me" />
-        </div>
-        <div class="gallery-item" data-type="restaurant" data-id="al-ceppo">
-          <img src="./assets/alceppo.webp" alt="Al Ceppo" />
-        </div>
-        <div class="gallery-item" data-type="restaurant" data-id="pipero">
-          <img src="./assets/pipero.webp" alt="Pipero" />
-        </div>
-      </div>
-    </section>
-    <div id="modal" class="modal hidden">
-      <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <div id="modal-body"></div>
-      </div>
-    </div>
-    <div class="restaurant-modal hidden">
-      <div class="restaurant-modal-content">
-        <span class="restaurant-close-btn">&times;</span>
-        <div id="restaurant-modal-body"></div>
-      </div>
-    </div>
 
-    <script src="./js/modal.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gastronomia en Roma</title>
+  <link rel="stylesheet" href="./css/navbar.css" />
+  <link rel="stylesheet" href="./css/gastronomy.css" />
+  <link rel="stylesheet" href="./css/restaurant.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <script src="js/navbar.js"></script>
+    <nav class="navbar">
+      <div class="logo">Roma</div>
+      <button class="toggle" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="history-culture.html">Historia y Cultura</a></li>
+        <li><a href="tourist-attractions.html">Atracciones turisticas</a></li>
+        <li><a href="gastronomy.html">Gastronomia</a></li>
+        <li><a href="how-to-get-there.html">Como llegar</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="gastronomy-gallery">
+    <h2>Gastronomy of Rome</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item" data-type="dish" data-id="carbonara">
+        <img src="./assets/carbonara.webp" alt="Spaghetti alla Carbonara" />
+      </div>
+      <div class="gallery-item" data-type="dish" data-id="coda">
+        <img src="./assets/coda.webp" alt="Coda alla Vaccinara" />
+      </div>
+      <div class="gallery-item" data-type="dish" data-id="cacioepepe">
+        <img src="./assets/cacioepepe.webp" alt="Cacio e Pepe" />
+      </div>
+      <div class="gallery-item" data-type="dish" data-id="saltimbocca">
+        <img src="./assets/saltimbocca.webp" alt="Saltimbocca alla Romana" />
+      </div>
+      <div class="gallery-item" data-type="dish" data-id="suppli">
+        <img src="./assets/suppli.webp" alt="Supplì" />
+      </div>
+      <div class="gallery-item" data-type="dish" data-id="pinsa">
+        <img src="./assets/pinsa.webp" alt="Pinsa Romana" />
+      </div>
+      <div class="gallery-item" data-type="restaurant" data-id="per-me">
+        <img src="./assets/per-me.webp" alt="per-me" />
+      </div>
+      <div class="gallery-item" data-type="restaurant" data-id="al-ceppo">
+        <img src="./assets/alceppo.webp" alt="Al Ceppo" />
+      </div>
+      <div class="gallery-item" data-type="restaurant" data-id="pipero">
+        <img src="./assets/pipero.webp" alt="Pipero" />
+      </div>
+    </div>
+  </section>
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+  <div class="restaurant-modal hidden">
+    <div class="restaurant-modal-content">
+      <span class="restaurant-close-btn">&times;</span>
+      <div id="restaurant-modal-body"></div>
+    </div>
+  </div>
+
+  <script src="./js/modal.js"></script>
+</body>
+
 </html>

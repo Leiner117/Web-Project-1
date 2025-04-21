@@ -14,7 +14,7 @@
   background: #ffffff;
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 1px 8px #0000000F;
+  box-shadow: 0 1px 8px #0000000f;
   margin-left: 0;
   height: fit-content;
   margin-top: 2rem;
@@ -36,7 +36,7 @@
   font-weight: 500;
   transition: all 0.2s ease;
 }
-.attraction-menu li a:hover{
+.attraction-menu li a:hover {
   border-left-color: #556b2f;
   background-color: #f7f9f9;
 }
@@ -65,7 +65,7 @@
   aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 2px 8px #0000000F;
+  box-shadow: 0 2px 8px #0000000f;
 }
 .attraction-title {
   font-size: 2rem;
@@ -100,7 +100,7 @@
   background-color: #dbeedb;
   border-radius: 12px;
   padding: 1rem;
-  box-shadow: 0 1px 5px #0000000F;
+  box-shadow: 0 1px 5px #0000000f;
   border-left: 5px solid #6b8e23;
   display: flex;
   flex-direction: column;
@@ -111,7 +111,7 @@
 .map-container {
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 1px 8px #0000000F;
+  box-shadow: 0 1px 8px #0000000f;
 }
 @media (max-width: 1024px) {
   .main-container {
