@@ -36,7 +36,7 @@
 .modal {
   position: fixed;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: #0000000F;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +55,7 @@
   position: relative;
   overflow-y: auto;
   max-height: 90vh;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 25px #0000000F;
 }
 .close-btn {
   position: absolute;
@@ -75,7 +75,7 @@
   font-size: 1.75rem;
   color: #1c1c1c;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #d38b1c;
+  border-bottom: 2px solid #6b8e23;
   padding-bottom: 0.5rem;
 }
 .modal-content p {
@@ -97,7 +97,7 @@
 .restaurant-modal {
   position: fixed;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: #0000000F;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,8 +118,7 @@
   position: relative;
   overflow-y: auto;
   max-height: 90vh;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 12px 28px #0000000F;
 }
 
 .restaurant-close-btn {
@@ -141,7 +140,7 @@
   font-size: 1.8rem;
   color: #1c1c1c;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #d38b1c;
+  border-bottom: 2px solid #6b8e23;
   padding-bottom: 0.5rem;
 }
 
